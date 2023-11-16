@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border-style: none;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: black;
+    font-weight: 600;
+    font-size: 18ox;
+    border-bottom: 1px solid transparent;
+}
+
+nav a:hover {
+    color: #0082F4;
+    border-color: white;
+}
+
+nav button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: black;
+    background-color: #FFFFFF;
+    border: none;
+    font-weight: bold;
+}
+
+nav button:hover {
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    background-color: #0082F4;
+    border: none;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    color: #0082F4;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.header-right img {
+    width: 400px;
+}
+
+.header-title {
+    font-size: 60px;
+    width: 520px;
+    padding: 20px 0px;
+    color: black;
+}
+
+span {
+    color: #0082F4;
+}
+
+.header-text {
+    font-size: 18px;
+    width: 540px;
+    color: rgba(132, 148, 153, 1);
+}
+
+.header-btns button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.header-btns button:hover {
+    background: #0082F4;
+    color: white
+}
+
+.header-btns {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-between;
+    width: 1140px;
+    height: 548px;
+}
+
+.section-right {
+    width: 530px;
+    height: 500px;
+    padding-left: 190px;
+}
+
+.section-left {
+    width: 300px;
+    height: 359px;
+    padding-left: 100px;
+}
+
+
+.section-list {
+    color: #0082F4;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 49px;
+}
+
+.section-text {
+    color: rgba(132, 148, 153, 1);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.section-btns {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section-btns:hover {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #0082F4;
+    color: #FFFFFF;
+}
+
+.works {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    text-align: center;
+}
+
+.working {
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.work-123 {
+    width: 250px;
+    height: 300px;
+}
+
+.work-img {
+    width: 150px;
+    height: 150px;
+}
+
+.footer-list {
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.footers {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.cta-list {
+    text-align: center;
+    padding-top: 100px;
+    color: #058AFF;
+}
+
+.cta-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.email {
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    gap: 45px;
+}
+
+.email-text {
+    align-items: center;
+}
+
+.email-btns {
+    width: 64px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.email-btns:hover {
+    width: 64px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: #058AFF;
+    color: #FFFFFF;
+}
